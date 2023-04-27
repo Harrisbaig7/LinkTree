@@ -1,0 +1,45 @@
+:root {
+    --primary: #01996a;
+    --primary-dark: #064531;
+    --secondary: #3a82ee;
+    --secondary-dark: #082248;
+    --light: #eee;
+    --gray: #888;
+    --dark: #1b1b21;
+    --dark-light: #313139;
+    --danger: #ff5b57;
+    --danger-dark: #d44947;
+    --white: #fff;
+    --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    --secondary-glow: 0px 0px 4px rgba(58, 130, 238, 0.75);
+    --primary-glow: 0px 0px 4px rgba(73, 234, 64, 0.75);
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.inline {
+    display: inline !important;
+}
+
+.block {
+    display: block !important;
+}

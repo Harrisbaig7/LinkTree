@@ -1,0 +1,51 @@
+.preview {
+    width: 100%;
+    height: 100%;
+    background-color: var(--dark);
+    border-radius: 3rem;
+    position: relative !important;
+}
+
+.preview .list-links {
+    padding: 2rem;
+}
+
+.preview .main {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.preview .link {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.preview .link a {
+    color: var(--white);
+    text-decoration: none;
+    padding: 0.7rem 1rem;
+    background-color: black;
+    display: block;
+}
+
+.preview .link a:hover {
+    cursor: pointer;
+}
+
+.preview .close-btn-holder {
+    position: absolute;
+    bottom: 5%;
+    height: 50px;
+    justify-content: center;
+    display: none;
+    width: 100%;
+}
+
+.preview .close-btn {
+    position: absolute;
+    bottom: 5%;
+    display: none;
+}
