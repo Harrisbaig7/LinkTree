@@ -365,7 +365,7 @@ input:checked + .slider::after {
     }
 }
 
-@media screen and (max-width: 765px) {
+/* @media screen and (max-width: 765px) {
     .sidebar {
         display: none;
     }
@@ -384,4 +384,4 @@ input:checked + .slider::after {
     .close-btn {
         display: flex;
     }
-}
+} */
